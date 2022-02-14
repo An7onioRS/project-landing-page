@@ -17,6 +17,8 @@ p {
     margin: 0;
 }
 
+/*Styling the header + upper part of the Website which has the dark-blue background */
+
 #intro {
     background-color: #1f2937;
     color: white;
@@ -26,9 +28,9 @@ p {
 }
 
 .upper-container {
+    width: 70%;
     display: flex;
     flex-flow: column wrap;
-    width: 70%;
     gap: 2rem;
 }
 
@@ -40,7 +42,7 @@ p {
 article {
     display: flex;
     flex: 1;
-    padding: 2rem;
+    margin: 2rem;
     gap: 2rem;
 }
 
@@ -65,6 +67,7 @@ a {
     color: #e5e7eb;
     text-decoration: none;
 }
+
 
 .content {
     display: flex;
@@ -98,3 +101,61 @@ article button {
     font-weight: bold;
 }
 
+/*Styling the information portion of the site! */
+
+.random-information {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.random-information h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.images img {
+    width: 250px;
+    height: 250px;
+}
+
+.text {
+    flex: 1;
+}
+
+
+/*Styling the Quote part */
+
+.quote {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 2rem 4rem;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote figcaption {
+    align-self: flex-end;
+    font-size: 20px;
+}
